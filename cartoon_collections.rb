@@ -21,7 +21,7 @@ end
 
 def find_the_cheese(options)
   options.each do |option|
-    if option == "cheddar" || cheese == "gouda" || cheese == "camembert"
+    if option == "cheddar" || option == "gouda" || option == "camembert"
   return "#{option}"
 else
   nil
