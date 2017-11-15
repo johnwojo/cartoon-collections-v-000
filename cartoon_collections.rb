@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteers)
   heroes = []
-  planeteers.collect do |hero|
+  planeteers.each do |hero|
     heroes << hero.capitalize + "!"
   end
 end
