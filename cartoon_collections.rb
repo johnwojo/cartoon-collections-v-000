@@ -24,7 +24,7 @@ def find_the_cheese(options)
     if option == "cheddar" || option == "gouda" || option == "camembert"
   return "#{option}"
 else
-  nil
+  return nil
 end
 end
 end
