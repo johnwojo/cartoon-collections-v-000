@@ -9,6 +9,7 @@ def summon_captain_planet(planeteers)
   planeteers.each do |hero|
     heroes << hero.capitalize + "!"
   end
+  return heroes
 end
 
 def long_planeteer_calls# code an argument here
