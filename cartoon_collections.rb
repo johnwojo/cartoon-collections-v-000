@@ -19,13 +19,7 @@ end
 
 
 
-def find_the_cheese(options)
-i = 0
-options.each {|option|}
-if options.include?(["cheddar", "gouda", "camembert"])
-  puts options[i]
+def find_the_cheese(snacks)
+snacks.detect do {|snack| snack == "cheddar" snack == || "gouda" snack == || "camembert"}
+end
 
-else
-  puts nil
-end
-end
