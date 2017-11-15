@@ -18,7 +18,6 @@ def long_planeteer_calls(calls)
 end
 
 
-
 def find_the_cheese(snacks)
   snacks.detect {|snack| snack == "cheddar" || snack == "gouda" || snack == "camembert"}
 end
