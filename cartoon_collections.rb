@@ -20,4 +20,12 @@ end
 
 
 def find_the_cheese(options)
+i = 0
+options.each {|option|}
+if options.include?(["cheddar", "gouda", "camembert"])
+  puts options[i]
+
+else
+  puts nil
+i = i + 1
 end
