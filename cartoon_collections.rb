@@ -20,5 +20,5 @@ end
 
 
 def find_the_cheese(snacks)
-  snacks.detect {|snack| snack == "cheddar" snack == || "gouda" snack == || "camembert"}
+  snacks.detect {|snack| snack == "cheddar" ||  snack == "gouda" snack == || "camembert"}
 end
