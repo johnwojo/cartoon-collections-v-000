@@ -23,5 +23,5 @@ def find_the_cheese(options)
   while i = 0
     options.select {|option| option == "cheddar" || option == "gouda" || option == "camembert"}
   return option[i]
+i = i + 1
     end
-    
