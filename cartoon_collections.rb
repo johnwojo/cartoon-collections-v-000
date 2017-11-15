@@ -25,3 +25,5 @@ def find_the_cheese(options)
   return option[i]
 i = i + 1
     end
+  end
+end
