@@ -25,10 +25,5 @@ def find_the_cheese(options)
   return "#{option}"
 else
   nil
-
 end
-
-
-
-
-
+end
