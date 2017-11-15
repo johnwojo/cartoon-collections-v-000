@@ -22,3 +22,6 @@ end
 def find_the_cheese(options)
   options.select do |option|
     if option == "cheddar" || option == "gouda" || option == "camembert"
+    end
+  end
+end
