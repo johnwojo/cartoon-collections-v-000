@@ -27,6 +27,5 @@ if options.include?(["cheddar", "gouda", "camembert"])
 
 else
   puts nil
-i = i + 1
 end
 end
